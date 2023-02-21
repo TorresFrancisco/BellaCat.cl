@@ -1,0 +1,20 @@
+.logo-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .logo {
+    width: 25%;
+    height: auto;
+    margin-top: -5%;
+  }
+  @media (max-width: 767px) {
+    .logo {
+        margin-top: -25%;
+        width: 50%;
+    }
+}
+  
