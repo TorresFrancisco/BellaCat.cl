@@ -5,7 +5,7 @@ import {
   faShoppingCart,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import "../assets/css/car.css";
+import "../assets/css/cart.css";
 
 const Car = () => {
   return (

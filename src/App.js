@@ -22,7 +22,7 @@ function App() {
           <Navbar />
         </div>
         <div className="carUp">
-          <Car />
+          <Cart />
         </div>
       </div>
       <LogoComponent />
