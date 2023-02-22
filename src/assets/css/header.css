@@ -1,0 +1,10 @@
+.info {
+    background-color: #FFA07A;
+    color: #fff;
+    padding: 10px;
+}
+
+.info p {
+    display: flex;
+    justify-content: center;
+}
