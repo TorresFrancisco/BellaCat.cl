@@ -1,24 +1,25 @@
 import React from "react";
+
+// Components
 import Header from "./components/Header";
 import LogoComponent from "./components/Logo";
-import Navbar from "./components/NavBar";
-import Buscador from "./components/Buscador";
-import Car from "./components/Car";
-import MiCarousel from "./components/Carousel";
-import "./assets/css/app.css";
+import Navbar from "./components/Navbar";
+import Buscador from "./components/Search-bar";
+import Cart from "./components/Cart";
+import MiCarousel from "./components/Carrousel";
+
+// CSS
+
+import './assets/css/normalize.css';
+import './assets/css/reset.css';
+
 
 function App() {
   return (
     <div>
       <Header />
-      <div className="contenedor">
-        <div className="navbarUp">
-          <Navbar />
-        </div>
-        <div className="carUp">
-          <Car />
-        </div>
-      </div>
+      <Cart />
+      <Navbar />
       <LogoComponent />
       <Buscador />
       <MiCarousel />
