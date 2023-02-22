@@ -1,13 +1,10 @@
 import React from "react";
-
-// Components
 import Header from "./components/Header";
 import LogoComponent from "./components/Logo";
 import Navbar from "./components/Navbar";
 import Buscador from "./components/Search-bar";
 import Cart from "./components/Cart";
 import MiCarousel from "./components/Carrousel";
-import Footer from "./components/Footer";
 
 // CSS
 
@@ -17,14 +14,20 @@ import './assets/css/reset.css';
 
 function App() {
   return (
+    
     <div>
       <Header />
-      <Cart />
-      <Navbar />
+      <div className="contenedor">
+        <div className="navbarUp">
+          <Navbar />
+        </div>
+        <div className="carUp">
+          <Car />
+        </div>
+      </div>
       <LogoComponent />
       <Buscador />
       <MiCarousel />
-      <Footer />
     </div>
   );
 }
