@@ -8,15 +8,15 @@ import { CCarouselItem, CCarousel, CImage } from "@coreui/react";
 
 const MiCarousel = () => {
   return (
-    <CCarousel controls indicators transition="slide" interval={1000}>
+    <CCarousel className="carrousel" controls indicators transition="slide" interval={1000}>
       <CCarouselItem>
-        <CImage className=" w-100 p-5 img" src={imgCats} alt="slide 1" />
+        <CImage className="d-block w-100" src={imgCats} alt="slide 1" />
       </CCarouselItem>
       <CCarouselItem>
-        <CImage className=" w-100 p-5 img" src={missa} alt="slide 2" />
+        <CImage className="d-block w-100" src={missa} alt="slide 2" />
       </CCarouselItem>
       <CCarouselItem>
-        <CImage className=" w-100 p-5 img" src={Logo} alt="slide 3" />
+        <CImage className="d-block w-100" src={Logo} alt="slide 3" />
       </CCarouselItem>
     </CCarousel>
   );

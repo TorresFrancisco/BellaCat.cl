@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Buscador from "./components/Search-bar";
 import Cart from "./components/Cart";
 import MiCarousel from "./components/Carrousel";
+import Footer from "./components/Footer";
 
 // CSS
 
@@ -23,6 +24,7 @@ function App() {
       <LogoComponent />
       <Buscador />
       <MiCarousel />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,8 @@
-/* .img {
-    width: 10   0vw;
-    height: 50vw;
-} */
+.carrousel {
+    width: 50%;
+    height: 25%;
+    /* position: relative; */
+    /* overflow: hidden; */
+    margin: 0 auto;
+    /* background-color: #000; */
+}
